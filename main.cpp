@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-char getGrade() {
+char getGrade() {                    //The switch statement is much easier, but sometimes the only option is to use the if statement, such as if you are testing a string
     char grade = '0';
     std::cin >> grade;
     return std::toupper(grade);
